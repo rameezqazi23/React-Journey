@@ -5,9 +5,8 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  //creating custom tags
+  <App name="Rameez Qazi" age="22"/>,
   document.getElementById('root')
 );
 
